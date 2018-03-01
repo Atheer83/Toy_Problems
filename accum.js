@@ -17,7 +17,7 @@ function counting (n, s) {
         		str = str + "-" + input[i].toUpperCase() + counting(input[i], i).toLowerCase() ;
 
         		}
-        		//str = str + input[i].toUpperCase();
+        		
         	}
         return str;
     }
