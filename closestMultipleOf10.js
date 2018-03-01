@@ -4,5 +4,5 @@
 	// 25 ===> 30
 	// 37 ===> 40
  function closestMultipleOf10(num) {
- 	return Math.round(num /10);
+ 	return Math.round(num /10)*10;
  }
